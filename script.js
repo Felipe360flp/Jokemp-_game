@@ -24,8 +24,7 @@ do{
     }
 
 //////para verificar se alguma letra foi digitada por engano//
-    for(let x=0;x<partidas;x++){
-        for(let y=0;y<partidas;y++){ 
+    for(let x=0;x<partidas;x++){        
             if(leitor[x]+1<0){
                 console.log("Achei uma letra.Loop!");
                 break;
@@ -33,8 +32,7 @@ do{
                 console.log("Leitor >>> apenas números");
                 controle++;
                 break;            
-            }
-        }
+            }        
     }
 /////////// Para saber se o nº de partidas é válido////////// 
     if(partidas<6){
